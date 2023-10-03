@@ -164,7 +164,7 @@ do_test () {
 
 function main () {
 	pheader
-	# Set was not mandatory
+	# the set container was not mandatory when I validated it
 	containers=(vector map stack)
 	# containers=(vector list map stack queue deque multimap set multiset)
 	if [ $# -ne 0 ]; then
