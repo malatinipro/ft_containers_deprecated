@@ -175,4 +175,5 @@ function main () {
 		printf "%40s\n" $container
 		do_test $container 2>/dev/null
 	done
+	return 0;
 }
