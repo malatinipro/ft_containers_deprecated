@@ -2,9 +2,9 @@ name: mandatory tests macos
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "validated" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "validated" ]
 
 jobs:
   build:

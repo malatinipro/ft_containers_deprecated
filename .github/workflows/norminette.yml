@@ -2,9 +2,9 @@ name: norminette
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "validatedr" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "validated" ]
 
 jobs:
   norminette_job:
